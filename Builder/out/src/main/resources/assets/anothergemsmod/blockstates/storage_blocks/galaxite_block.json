@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "anothergemsmod:block/storage_blocks/galaxite_block"
+    }
+  }
+}

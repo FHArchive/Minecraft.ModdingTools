@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_block",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/zirconia"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:armor/zirconia_leggings",
+    "count": 1
+  }
+}

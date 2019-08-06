@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "anothergemsmod:block/decorations/zircon_lamp_on"},
+    "lit=true": { "model": "anothergemsmod:block/decorations/zircon_lamp" }
+  }
+}

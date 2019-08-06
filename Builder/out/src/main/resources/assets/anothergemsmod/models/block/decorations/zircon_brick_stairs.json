@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "anothergemsmod:block/decorations/zircon_bricks",
+    "top": "anothergemsmod:block/decorations/zircon_bricks",
+    "side": "anothergemsmod:block/decorations/zircon_bricks"
+  }
+}

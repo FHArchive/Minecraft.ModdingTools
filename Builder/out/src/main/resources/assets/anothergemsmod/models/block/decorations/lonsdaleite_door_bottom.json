@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "anothergemsmod:block/decorations/lonsdaleite_door_bottom",
+    "top": "anothergemsmod:block/decorations/lonsdaleite_door_top"
+  }
+}

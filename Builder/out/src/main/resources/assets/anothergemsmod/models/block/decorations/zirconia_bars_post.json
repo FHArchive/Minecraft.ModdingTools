@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "anothergemsmod:block/decorations/zirconia_bars_top",
+    "pane": "anothergemsmod:block/decorations/zirconia_bars"
+  }
+}

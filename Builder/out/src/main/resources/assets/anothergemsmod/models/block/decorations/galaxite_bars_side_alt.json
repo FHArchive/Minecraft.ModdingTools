@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "anothergemsmod:block/decorations/galaxite_bars_top",
+    "pane": "anothergemsmod:block/decorations/galaxite_bars"
+  }
+}

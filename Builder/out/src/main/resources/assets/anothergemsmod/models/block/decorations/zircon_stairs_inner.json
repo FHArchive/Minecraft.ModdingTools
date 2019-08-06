@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "anothergemsmod:block/storage_blocks/zircon_block",
+    "top": "anothergemsmod:block/storage_blocks/zircon_block",
+    "side": "anothergemsmod:block/storage_blocks/zircon_block"
+  }
+}

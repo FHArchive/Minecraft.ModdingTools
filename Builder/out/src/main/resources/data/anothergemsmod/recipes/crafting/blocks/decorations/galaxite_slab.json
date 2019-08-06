@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_decoration_block",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/galaxite"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:decorations/galaxite_slab",
+    "count": 6
+  }
+}

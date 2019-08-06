@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_axe",
+    "pattern": [
+        "##",
+        "#a",
+        " a"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/lonsdaleite"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:tools/lonsdaleite_axe",
+        "count": 1
+    }
+}

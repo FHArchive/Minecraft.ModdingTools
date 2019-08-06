@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "anothergemsmod:block/ores/zircon_ore"
+  }
+}

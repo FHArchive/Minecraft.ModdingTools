@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_shears",
+    "pattern": [
+        " #",
+        "# "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/zircon"
+        }
+
+    },
+    "result": {
+        "item": "anothergemsmod:tools/zircon_shears",
+        "count": 1
+    }
+}

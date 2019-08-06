@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_shears",
+    "pattern": [
+        " #",
+        "# "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/zirconia"
+        }
+
+    },
+    "result": {
+        "item": "anothergemsmod:tools/zirconia_shears",
+        "count": 1
+    }
+}

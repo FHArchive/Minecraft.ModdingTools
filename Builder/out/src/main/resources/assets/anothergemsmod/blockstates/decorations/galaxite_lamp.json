@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "anothergemsmod:block/decorations/galaxite_lamp_on"},
+    "lit=false": { "model": "anothergemsmod:block/decorations/galaxite_lamp" }
+  }
+}

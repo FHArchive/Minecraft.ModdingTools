@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_hoe",
+    "pattern": [
+        "##",
+        " a",
+        " a"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/galaxite"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:tools/galaxite_hoe",
+        "count": 1
+    }
+}

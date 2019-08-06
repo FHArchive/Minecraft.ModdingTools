@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:pickaxe/aquamarine",
+        "#forge:pickaxe/galaxite",
+	    "#forge:pickaxe/lonsdaleite",
+	    "#forge:pickaxe/zircon",
+	    "#forge:pickaxe/zirconia"
+    ]
+}

@@ -1,0 +1,27 @@
+
+{
+    "resources_json_doc_" : "Note these are the comments for this file. Usage: Double click the .py to run. resources > names are a list of names for a given resource eg 'myResource' / resources > types is a list of variations produced (designed for enumeration) and can hold [ore, block, bricks, slab, stairs, brick_slab, brick_stairs, tools, armor, shears, hopper, bars, door, lamp, lamp_inverted] Note that a gem/ ingot will always be produced directly under item/ with the name. Tale a look in res/src/main/resources/assets/anothergemsmod for an indication of where the files will be",
+    "resources" : [{
+        "names" : ["aquamarine", "galaxite", "lonsdaleite", "zircon", "zirconia"],
+        "types" : ["ore", "block", "bricks", "slab", "stairs", "brick_slab", "brick_stairs", "tools", "armor", "shears", "bars", "door", "lamp", "lamp_inverted"]
+
+    }
+    
+
+    ],
+    "blocks_json_doc_" : "blocks > names are a list of names for a given block eg 'myBlock' / blocks > types is a list of variations produced (designed for enumeration) and can hold [ore, block, bricks, slab, stairs, brick_slab, brick_stairs, tools, armor, shears, hopper, bars, door, lamp, lamp_inverted] . A minimum of 1 type must be specified ",
+    "blocks" : [{
+        "doc": "glowstone and lapis blocks are 'cheap' blocks crafted with decor block and ingot form ",
+        "names" : [],
+        "types" : ["bricks", "slab", "stairs", "brick_slab", "brick_stairs", "tools", "armor", "shears", "bars", "door", "lamp", "lamp_inverted"]
+
+    }
+
+    ],
+    "item_json_doc_" : "resources > names are a list of names for a given resource eg 'myItem' can have types also. eg myItem has type 'brick' myItem_brick ",
+    "items" : [{
+        "names" : [],
+        "types" : []
+    }
+    ]
+}

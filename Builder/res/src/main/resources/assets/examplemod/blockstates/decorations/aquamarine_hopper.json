@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=down": { "model": "anothergemsmod:block/decorations/aquamarine_hopper" },
+    "facing=north": { "model": "anothergemsmod:block/decorations/aquamarine_hopper_side" },
+    "facing=south": { "model": "anothergemsmod:block/decorations/aquamarine_hopper_side", "y": 180 },
+    "facing=west": { "model": "anothergemsmod:block/decorations/aquamarine_hopper_side", "y": 270 },
+    "facing=east": { "model": "anothergemsmod:block/decorations/aquamarine_hopper_side", "y": 90 }
+  }
+}

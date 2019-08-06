@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_shears",
+    "pattern": [
+        " #",
+        "# "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/galaxite"
+        }
+
+    },
+    "result": {
+        "item": "anothergemsmod:tools/galaxite_shears",
+        "count": 1
+    }
+}

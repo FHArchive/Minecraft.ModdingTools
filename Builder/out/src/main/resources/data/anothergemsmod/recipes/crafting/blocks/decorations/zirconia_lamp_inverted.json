@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_decoration_block",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/zirconia"
+    },
+    "a": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:decorations/zirconia_lamp_inverted",
+    "count": 1
+  }
+}

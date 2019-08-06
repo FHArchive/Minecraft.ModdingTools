@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_block",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/zircon"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:armor/zircon_chest",
+    "count": 1
+  }
+}

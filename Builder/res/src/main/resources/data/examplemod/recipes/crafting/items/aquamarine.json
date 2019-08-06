@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "anothergemsmod:gem",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/aquamarine"
+        }
+    ],
+    "result": {
+        "item": "anothergemsmod:aquamarine",
+        "count": 9
+    }
+}

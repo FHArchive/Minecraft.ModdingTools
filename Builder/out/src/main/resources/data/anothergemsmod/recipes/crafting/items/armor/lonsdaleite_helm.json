@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_block",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/lonsdaleite"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:armor/lonsdaleite_helm",
+    "count": 1
+  }
+}

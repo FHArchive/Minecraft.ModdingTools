@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "anothergemsmod:block/decorations/lonsdaleite_brick_slab"},
+    "type=top": { "model": "anothergemsmod:block/decorations/lonsdaleite_brick_slab_top" },
+    "type=double": { "model": "anothergemsmod:block/decorations/lonsdaleite_bricks" }
+  }
+}

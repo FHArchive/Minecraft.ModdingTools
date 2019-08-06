@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_decoration_block",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/zircon"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:decorations/zircon_stairs",
+    "count": 4
+  }
+}

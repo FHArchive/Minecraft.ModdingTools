@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_block",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/galaxite"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:armor/galaxite_chest",
+    "count": 1
+  }
+}

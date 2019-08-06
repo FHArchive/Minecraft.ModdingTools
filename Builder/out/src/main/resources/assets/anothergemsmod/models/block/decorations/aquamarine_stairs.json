@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "anothergemsmod:block/storage_blocks/aquamarine_block",
+    "top": "anothergemsmod:block/storage_blocks/aquamarine_block",
+    "side": "anothergemsmod:block/storage_blocks/aquamarine_block"
+  }
+}

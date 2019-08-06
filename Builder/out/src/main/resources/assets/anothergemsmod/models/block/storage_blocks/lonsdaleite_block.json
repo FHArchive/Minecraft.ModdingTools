@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "anothergemsmod:block/storage_blocks/lonsdaleite_block"
+  }
+}

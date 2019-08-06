@@ -1,0 +1,110 @@
+{
+  "item.anothergemsmod.aquamarine": "Aquamarine",
+  "item.anothergemsmod.galaxite": "Galaxite",
+  "item.anothergemsmod.lonsdaleite": "Lonsdaleite",
+  "item.anothergemsmod.zircon": "Zircon",
+  "item.anothergemsmod.zirconia": "Zirconia",
+
+  "block.anothergemsmod.ores.aquamarine_ore": "Aquamarine Ore",
+  "block.anothergemsmod.ores.galaxite_ore": "Galaxite Ore",
+  "block.anothergemsmod.ores.lonsdaleite_ore": "Lonsdaleite Ore",
+  "block.anothergemsmod.ores.zircon_ore": "Zircon Ore",
+  "block.anothergemsmod.ores.zirconia_ore": "Zirconia Ore",
+
+  "block.anothergemsmod.storage_blocks.aquamarine_block": "Block of Aquamarine",
+  "block.anothergemsmod.storage_blocks.galaxite_block": "Block of Galaxite",
+  "block.anothergemsmod.storage_blocks.lonsdaleite_block": "Block of Lonsdaleite",
+  "block.anothergemsmod.storage_blocks.zircon_block": "Block of Zircon",
+  "block.anothergemsmod.storage_blocks.zirconia_block": "Block of Zirconia",
+
+  "item.anothergemsmod.tools.aquamarine_pickaxe": "Aquamarine Pickaxe",
+  "item.anothergemsmod.tools.galaxite_pickaxe": "Galaxite Pickaxe",
+  "item.anothergemsmod.tools.lonsdaleite_pickaxe": "Lonsdaleite Pickaxe",
+  "item.anothergemsmod.tools.zircon_pickaxe": "Zircon Pickaxe",
+  "item.anothergemsmod.tools.zirconia_pickaxe": "Zirconia Pickaxe",
+
+  "item.anothergemsmod.tools.aquamarine_axe": "Aquamarine Axe",
+  "item.anothergemsmod.tools.galaxite_axe": "Galaxite Axe",
+  "item.anothergemsmod.tools.lonsdaleite_axe": "Lonsdaleite Axe",
+  "item.anothergemsmod.tools.zircon_axe": "Zircon Axe",
+  "item.anothergemsmod.tools.zirconia_axe": "Zirconia Axe",
+
+  "item.anothergemsmod.tools.aquamarine_hoe": "Aquamarine Hoe",
+  "item.anothergemsmod.tools.galaxite_hoe": "Galaxite Hoe",
+  "item.anothergemsmod.tools.lonsdaleite_hoe": "Lonsdaleite Hoe",
+  "item.anothergemsmod.tools.zircon_hoe": "Zircon Hoe",
+  "item.anothergemsmod.tools.zirconia_hoe": "Zirconia Hoe",
+
+  "item.anothergemsmod.tools.aquamarine_shovel": "Aquamarine Shovel",
+  "item.anothergemsmod.tools.galaxite_shovel": "Galaxite Shovel",
+  "item.anothergemsmod.tools.lonsdaleite_shovel": "Lonsdaleite Shovel",
+  "item.anothergemsmod.tools.zircon_shovel": "Zircon Shovel",
+  "item.anothergemsmod.tools.zirconia_shovel": "Zirconia Shovel",
+
+  "item.anothergemsmod.tools.aquamarine_sword": "Aquamarine Sword",
+  "item.anothergemsmod.tools.galaxite_sword": "Galaxite Sword",
+  "item.anothergemsmod.tools.lonsdaleite_sword": "Lonsdaleite Sword",
+  "item.anothergemsmod.tools.zircon_sword": "Zircon Sword",
+  "item.anothergemsmod.tools.zirconia_sword": "Zirconia Sword",
+
+  "item.anothergemsmod.armor.aquamarine_boots": "Aquamarine Boots",
+  "item.anothergemsmod.armor.galaxite_boots": "Galaxite Boots",
+  "item.anothergemsmod.armor.lonsdaleite_boots": "Lonsdaleite Boots",
+  "item.anothergemsmod.armor.zircon_boots": "Zircon Boots",
+  "item.anothergemsmod.armor.zirconia_boots": "Zirconia Boots",
+
+  "item.anothergemsmod.armor.aquamarine_chest": "Aquamarine Chestpiece",
+  "item.anothergemsmod.armor.galaxite_chest": "Galaxite Chestpiece",
+  "item.anothergemsmod.armor.lonsdaleite_chest": "Lonsdaleite Chestpiece",
+  "item.anothergemsmod.armor.zircon_chest": "Zircon Chestpiece",
+  "item.anothergemsmod.armor.zirconia_chest": "Zirconia Chestpiece",
+
+  "item.anothergemsmod.armor.aquamarine_helm": "Aquamarine Helm",
+  "item.anothergemsmod.armor.galaxite_helm": "Galaxite Helm",
+  "item.anothergemsmod.armor.lonsdaleite_helm": "Lonsdaleite Helm",
+  "item.anothergemsmod.armor.zircon_helm": "Zircon Helm",
+  "item.anothergemsmod.armor.zirconia_helm": "Zirconia Helm",
+
+  "item.anothergemsmod.armor.aquamarine_leggings": "Aquamarine Leggings",
+  "item.anothergemsmod.armor.galaxite_leggings": "Galaxite Leggings",
+  "item.anothergemsmod.armor.lonsdaleite_leggings": "Lonsdaleite Leggings",
+  "item.anothergemsmod.armor.zircon_leggings": "Zircon Leggings",
+  "item.anothergemsmod.armor.zirconia_leggings": "Zirconia Leggings",
+
+
+
+  "block.anothergemsmod.decorations.aquamarine_brick_slab": "Aquamarine Brick Slab",
+  "block.anothergemsmod.decorations.galaxite_brick_slab": "Galaxite Brick Slab",
+  "block.anothergemsmod.decorations.lonsdaleite_brick_slab": "Lonsdaleite Brick Slab",
+  "block.anothergemsmod.decorations.zircon_brick_slab": "Zircon Brick Slab",
+  "block.anothergemsmod.decorations.zirconia_brick_slab": "Zirconia Brick Slab",
+
+  "block.anothergemsmod.decorations.aquamarine_brick_stairs": "Aquamarine Brick Stairs",
+  "block.anothergemsmod.decorations.galaxite_brick_stairs": "Galaxite Brick Stairs",
+  "block.anothergemsmod.decorations.lonsdaleite_brick_stairs": "Lonsdaleite Brick Stairs",
+  "block.anothergemsmod.decorations.zircon_brick_stairs": "Zircon Brick Stairs",
+  "block.anothergemsmod.decorations.zirconia_brick_stairs": "Zirconia Brick Stairs",
+
+  "block.anothergemsmod.decorations.aquamarine_bricks": "Aquamarine Bricks",
+  "block.anothergemsmod.decorations.galaxite_bricks": "Galaxite Bricks",
+  "block.anothergemsmod.decorations.lonsdaleite_bricks": "Lonsdaleite Bricks",
+  "block.anothergemsmod.decorations.zircon_bricks": "Zircon Bricks",
+  "block.anothergemsmod.decorations.zirconia_bricks": "Zirconia Bricks",
+
+  "block.anothergemsmod.decorations.aquamarine_slab": "Aquamarine Slab",
+  "block.anothergemsmod.decorations.galaxite_slab": "Galaxite Slab",
+  "block.anothergemsmod.decorations.lonsdaleite_slab": "Lonsdaleite Slab",
+  "block.anothergemsmod.decorations.zircon_slab": "Zircon Slab",
+  "block.anothergemsmod.decorations.zirconia_slab": "Zirconia Slab",
+
+  "block.anothergemsmod.decorations.aquamarine_stairs": "Aquamarine Stairs",
+  "block.anothergemsmod.decorations.galaxite_stairs": "Galaxite Stairs",
+  "block.anothergemsmod.decorations.lonsdaleite_stairs": "Lonsdaleite Stairs",
+  "block.anothergemsmod.decorations.zircon_stairs": "Zircon Stairs",
+  "block.anothergemsmod.decorations.zirconia_stairs": "Zirconia Stairs",
+
+  "itemGroup.anothergemsmod.resources": "Another Gems Mod Resources",
+  "itemGroup.anothergemsmod.tools": "Another Gems Mod Tools",
+  "itemGroup.anothergemsmod.decoration": "Another Gems Mod Decoration Blocks",
+  "itemGroup.anothergemsmod.armor": "Another Gems Mod Armour"
+}

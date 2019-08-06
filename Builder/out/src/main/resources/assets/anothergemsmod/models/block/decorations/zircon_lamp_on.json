@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "anothergemsmod:block/decorations/zircon_lamp_on"
+  }
+}

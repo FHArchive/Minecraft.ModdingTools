@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_decoration_block",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/zircon"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:decorations/zircon_bars",
+    "count": 16
+  }
+}

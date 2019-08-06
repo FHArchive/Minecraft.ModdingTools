@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_decoration_block",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/galaxite"
+    },
+    "a": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:decorations/galaxite_lamp",
+    "count": 1
+  }
+}

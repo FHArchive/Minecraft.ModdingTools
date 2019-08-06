@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_block",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:decorations/lonsdaleite_bricks"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:storage_blocks/lonsdaleite_block",
+        "count": 4
+    }
+}

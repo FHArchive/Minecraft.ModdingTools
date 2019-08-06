@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_axe",
+    "pattern": [
+        "##",
+        "#a",
+        " a"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/zircon"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:tools/zircon_axe",
+        "count": 1
+    }
+}

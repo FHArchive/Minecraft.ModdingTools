@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_decoration_block",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:decorations/aquamarine_stairs"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:decorations/aquamarine_brick_stairs",
+        "count": 4
+    }
+}

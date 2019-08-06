@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "anothergemsmod:block/decorations/galaxite_bricks",
+    "top": "anothergemsmod:block/decorations/galaxite_bricks",
+    "side": "anothergemsmod:block/decorations/galaxite_bricks"
+  }
+}

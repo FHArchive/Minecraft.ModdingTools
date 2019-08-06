@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:ores/aquamarine",
+        "#forge:ores/galaxite",
+	    "#forge:ores/lonsdaleite",
+	    "#forge:ores/zircon",
+	    "#forge:ores/zirconia"
+    ]
+}

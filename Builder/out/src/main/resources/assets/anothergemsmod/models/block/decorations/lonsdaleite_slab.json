@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "anothergemsmod:block/storage_blocks/lonsdaleite_block",
+    "top": "anothergemsmod:block/storage_blocks/lonsdaleite_block",
+    "side": "anothergemsmod:block/storage_blocks/lonsdaleite_block"
+  }
+}

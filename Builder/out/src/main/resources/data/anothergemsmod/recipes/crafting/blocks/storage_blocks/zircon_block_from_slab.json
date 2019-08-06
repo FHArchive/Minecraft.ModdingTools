@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_block",
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:decorations/zircon_slab"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:storage_blocks/zircon_block",
+        "count": 1
+    }
+}

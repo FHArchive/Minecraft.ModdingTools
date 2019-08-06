@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "anothergemsmod:gem_hoe",
+    "pattern": [
+        "##",
+        " a",
+        " a"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/aquamarine"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "anothergemsmod:tools/aquamarine_hoe",
+        "count": 1
+    }
+}

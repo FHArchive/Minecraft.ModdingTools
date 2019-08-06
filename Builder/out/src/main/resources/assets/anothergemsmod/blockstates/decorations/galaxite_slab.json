@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "anothergemsmod:block/decorations/galaxite_slab"},
+    "type=top": { "model": "anothergemsmod:block/decorations/galaxite_slab_top" },
+    "type=double": { "model": "anothergemsmod:block/storage_blocks/galaxite_block" }
+  }
+}
