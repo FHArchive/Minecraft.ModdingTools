@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "group": outGroup,
+  "pattern": outRecipe,
+  "key": {
+    outIngredients
+  },
+  "result": {
+    "item": outResult,
+    "count": outCount
+  }
+}

@@ -1,0 +1,157 @@
+{
+    "COMMENTS": "author: (optional) specify project author, namespace: (required) use mod name, name-from-ingredient: (required) use 0 for A 1 for B... output name is in the form result_from_ingredient, recipes: (required) build recipes with id pattern/shapeless predef_ingredients group count, implementations: (required) usesid ingredients",
+    "author": "fredhappyface",
+    "namespace": "vanillautils",
+    "name-from-ingredient": 0,
+
+    "COMMENTS-recipes": "List of objects. id: use this in implementations, pattern: grid in the form ['123', '456', '789'], shapeless: list of letters (must be in asc order - A-Z and predef_ingredients must be defined in order), predef_ingredients: list in the form 'A' : 'ingredient', group: string for the group, count: how many items crafted ",
+    "recipes": [{
+        "id": "horse",
+        "pattern": ["  A", "AAA", "A A"],
+        "predef_ingredients": [],
+        "group": "horse_armor",
+        "count": 1
+    },
+    {
+        "id": "trans",
+        "shapeless": ["A", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 1
+    },
+    {
+        "id": "transsmelt",
+        "shapeless": ["A", "B", "C", "C", "C", "C", "C", "C", "C"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}, {"B": "minecraft:coal"}],
+        "group": "transmutations",
+        "count": 7
+    },
+    {
+        "id": "2trans",
+        "shapeless": ["A", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 2
+    },
+    {
+        "id": "4trans",
+        "shapeless": ["A", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 4
+    },
+    {
+        "id": "8trans",
+        "shapeless": ["A", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 8
+    },
+    {
+        "id": "trans2",
+        "shapeless": ["A", "B", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 1
+    },
+    {
+        "id": "trans4",
+        "shapeless": ["A", "B", "B", "B", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 1
+    },
+    {
+        "id": "trans8",
+        "shapeless": ["A", "B", "B", "B", "B", "B", "B", "B", "B"],
+        "predef_ingredients": [{"A": "vanillautils:ethereal"}],
+        "group": "transmutations",
+        "count": 1
+    }],
+
+    "COMMENTS-implementations": "usesid: specify recipe id to link, ingredients: list of lists in the form [[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+    "implementations": [
+    {
+        "usesid": "horse",
+        "ingredients_comment": "[[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+        "ingredients": [
+            ["minecraft:iron_horse_armor", ["minecraft:iron_ingot"]],
+            ["minecraft:gold_horse_armor", ["minecraft:gold_ingot"]],
+            ["minecraft:diamond_horse_armor", ["minecraft:diamond"]]
+           
+            
+
+         
+        ]
+    }
+
+
+    ],
+    "commented_implementations": [{
+        "usesid": "trans",
+        "ingredients_comment": "[[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+        "ingredients": [
+            ["minecraft:gravel", ["minecraft:sand"]],
+            ["minecraft:sand", ["minecraft:gravel"]],
+            ["minecraft:dirt", ["minecraft:grass"]],
+            ["minecraft:grass", ["minecraft:dirt"]],
+
+            ["minecraft:cobblestone", ["minecraft:diorite"]],
+            ["minecraft:diorite", ["minecraft:andesite"]],
+            ["minecraft:andesite", ["minecraft:cobblestone"]],
+
+            ["minecraft:melon", ["minecraft:pumpkin"]],
+            ["minecraft:pumpkin", ["minecraft:melon"]],
+
+            ["minecraft:oak_sapling", ["minecraft:spruce_sapling"]],
+            ["minecraft:spruce_sapling", ["minecraft:birch_sapling"]],
+            ["minecraft:birch_sapling", ["minecraft:jungle_sapling"]],
+            ["minecraft:jungle_sapling", ["minecraft:oak_sapling"]]
+
+        ]
+    },
+    {
+        "usesid": "trans2",
+        "ingredients_comment": "[[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+        "ingredients": [
+            ["minecraft:clay", ["minecraft:sand"]],
+            ["minecraft:clay", ["minecraft:gravel"]],
+            ["minecraft:clay", ["minecraft:flint"]],
+
+            ["minecraft:blaze_rod", ["minecraft:blaze_powder"]]
+
+        ]
+    },
+    {
+        "usesid": "2trans",
+        "ingredients_comment": "[[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+        "ingredients": [
+            ["minecraft:sand", ["minecraft:clay"]],
+            
+
+            ["minecraft:blaze_powder", ["minecraft:blaze_rod"]]
+
+        ]
+    },
+    {
+        "usesid": "transsmelt",
+        "ingredients_comment": "[[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+        "ingredients": [
+            ["minecraft:iron_ingot", ["minecraft:iron_ore"]],
+            ["minecraft:gold_ingot", ["minecraft:gold_ore"]],
+            ["minecraft:diamond", ["minecraft:diamond_ore"]],
+            ["minecraft:emerald", ["minecraft:emerald_ore"]],
+            ["minecraft:redstone", ["minecraft:redstone_ore"]],
+            ["minecraft:lapis_lazuli", ["minecraft:lapis_ore"]],
+            ["minecraft:quartz", ["minecraft:nether_quartz_ore"]],
+            ["minecraft:coal", ["minecraft:coal_ore"]]
+            
+
+         
+        ]
+    }
+
+
+    ]
+    
+}

@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": outGroup,
+  "ingredients": [
+    outIngredients
+  ],
+  "result": {
+    "item": outResult,
+    "count": outCount
+  }
+}

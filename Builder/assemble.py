@@ -89,7 +89,6 @@ def fileToString(filepath):
 Gets a list of subfiles - useful for bulk copying 
 '''
 def getListOfFiles(dirName, childOnly):
-    import os 
     # create a list of file and sub directories 
     # names in the given directory 
     listOfFile = os.listdir(dirName)
