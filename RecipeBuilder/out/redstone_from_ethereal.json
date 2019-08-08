@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": "vanillautils:transmutations",
+  "ingredients": [
+    { "item": "vanillautils:ethereal" }, { "item": "minecraft:coal" }, { "item": "minecraft:redstone_ore" }, { "item": "minecraft:redstone_ore" }, { "item": "minecraft:redstone_ore" }, { "item": "minecraft:redstone_ore" }, { "item": "minecraft:redstone_ore" }, { "item": "minecraft:redstone_ore" }, { "item": "minecraft:redstone_ore" }
+  ],
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 7
+  }
+}

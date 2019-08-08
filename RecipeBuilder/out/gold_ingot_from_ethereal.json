@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": "vanillautils:transmutations",
+  "ingredients": [
+    { "item": "vanillautils:ethereal" }, { "item": "minecraft:coal" }, { "item": "minecraft:gold_ore" }, { "item": "minecraft:gold_ore" }, { "item": "minecraft:gold_ore" }, { "item": "minecraft:gold_ore" }, { "item": "minecraft:gold_ore" }, { "item": "minecraft:gold_ore" }, { "item": "minecraft:gold_ore" }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 7
+  }
+}

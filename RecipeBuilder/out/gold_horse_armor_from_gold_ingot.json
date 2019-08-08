@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "group": "vanillautils:horse_armor",
+  "pattern": ["  A", "AAA", "A A"],
+  "key": {
+    "A": { "item": "minecraft:gold_ingot" }
+  },
+  "result": {
+    "item": "minecraft:gold_horse_armor",
+    "count": 1
+  }
+}

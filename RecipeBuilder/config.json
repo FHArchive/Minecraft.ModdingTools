@@ -78,9 +78,23 @@
             ["minecraft:iron_horse_armor", ["minecraft:iron_ingot"]],
             ["minecraft:gold_horse_armor", ["minecraft:gold_ingot"]],
             ["minecraft:diamond_horse_armor", ["minecraft:diamond"]]
-           
-            
 
+         
+        ]
+    },
+    {
+        "usesid": "transsmelt",
+        "ingredients_comment": "[[output, [input0(A), input1(B)]], [output, [input0(A), input1(B)]]]",
+        "ingredients": [
+            ["minecraft:iron_ingot", ["minecraft:iron_ore"]],
+            ["minecraft:gold_ingot", ["minecraft:gold_ore"]],
+            ["minecraft:diamond", ["minecraft:diamond_ore"]],
+            ["minecraft:emerald", ["minecraft:emerald_ore"]],
+            ["minecraft:redstone", ["minecraft:redstone_ore"]],
+            ["minecraft:lapis_lazuli", ["minecraft:lapis_ore"]],
+            ["minecraft:quartz", ["minecraft:nether_quartz_ore"]],
+            ["minecraft:coal", ["minecraft:coal_ore"]]
+            
          
         ]
     }

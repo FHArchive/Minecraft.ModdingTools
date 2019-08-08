@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": "vanillautils:transmutations",
+  "ingredients": [
+    { "item": "vanillautils:ethereal" }, { "item": "minecraft:coal" }, { "item": "minecraft:diamond_ore" }, { "item": "minecraft:diamond_ore" }, { "item": "minecraft:diamond_ore" }, { "item": "minecraft:diamond_ore" }, { "item": "minecraft:diamond_ore" }, { "item": "minecraft:diamond_ore" }, { "item": "minecraft:diamond_ore" }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 7
+  }
+}

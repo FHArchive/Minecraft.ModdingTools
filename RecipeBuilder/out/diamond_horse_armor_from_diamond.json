@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "group": "vanillautils:horse_armor",
+  "pattern": ["  A", "AAA", "A A"],
+  "key": {
+    "A": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor",
+    "count": 1
+  }
+}

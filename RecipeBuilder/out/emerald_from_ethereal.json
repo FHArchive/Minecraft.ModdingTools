@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": "vanillautils:transmutations",
+  "ingredients": [
+    { "item": "vanillautils:ethereal" }, { "item": "minecraft:coal" }, { "item": "minecraft:emerald_ore" }, { "item": "minecraft:emerald_ore" }, { "item": "minecraft:emerald_ore" }, { "item": "minecraft:emerald_ore" }, { "item": "minecraft:emerald_ore" }, { "item": "minecraft:emerald_ore" }, { "item": "minecraft:emerald_ore" }
+  ],
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 7
+  }
+}

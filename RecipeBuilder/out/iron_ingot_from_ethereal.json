@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": "vanillautils:transmutations",
+  "ingredients": [
+    { "item": "vanillautils:ethereal" }, { "item": "minecraft:coal" }, { "item": "minecraft:iron_ore" }, { "item": "minecraft:iron_ore" }, { "item": "minecraft:iron_ore" }, { "item": "minecraft:iron_ore" }, { "item": "minecraft:iron_ore" }, { "item": "minecraft:iron_ore" }, { "item": "minecraft:iron_ore" }
+  ],
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 7
+  }
+}
