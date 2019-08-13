@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "thisIsA:gem_block",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/testItem"
+    }
+  },
+  "result": {
+    "item": "thisIsA:armor/testItem_boots",
+    "count": 1
+  }
+}

@@ -10,9 +10,13 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfi
 
 import fileIO
 
+CONFIG = "config.json"
+OUTDIR = "out/"
+RESDIR = "res/"
+
 # Read generateMethods.json
 def readConfig():
-    data = fileIO.readJSON("config.json")
+    data = fileIO.readJSON(CONFIG)
     author = data["author"]
     namespace = data["namespace"]
     name_from_ingredient = data["name-from-ingredient"]
@@ -21,7 +25,6 @@ def readConfig():
     return author, namespace, name_from_ingredient, recipes, implementations
 
     
-AUTHOR, NAMESPACE, NAME_FROM_INGREDIENT, RECIPES, IMPLEMENTATIONS = readConfig()
 '''
 Get a recipe from a string (eg for rec0 get rec0)
 '''
@@ -51,13 +54,14 @@ def getRecipeType(recipe):
 Assemble a recipe from recipeType, outRecipe, outResult, outIngredients, 
 outGroup, outCount and produce a JSON file in the form result_from_ingredient
 '''
-def assembleRecipe(recipeType, outRecipe, outResult, outIngredients, outGroup, outCount):
-    craftingRecipe = fileIO.fileToString("res/" + recipeType + ".json")
+def assembleRecipe(recipeType, outRecipe, outResult, outIngredients):
+
+    craftingRecipe = fileIO.fileToString(RESDIR + recipeType + ".json")
 
     craftingRecipe = craftingRecipe.replace("outRecipe", str(outRecipe[recipeType]).replace("\'", "\""), 1)
     craftingRecipe = craftingRecipe.replace("outResult", "\"" + outResult + "\"", 1)
-    craftingRecipe = craftingRecipe.replace("outGroup", "\"" + outGroup + "\"", 1)
-    craftingRecipe = craftingRecipe.replace("outCount", str(outCount), 1)
+    craftingRecipe = craftingRecipe.replace("outGroup", "\"" + getNamespacedIngredient(outRecipe["group"]) + "\"", 1)
+    craftingRecipe = craftingRecipe.replace("outCount", str(outRecipe["count"]), 1)
 
     ingredientsJson = ""
     pointer = 65
@@ -71,7 +75,7 @@ def assembleRecipe(recipeType, outRecipe, outResult, outIngredients, outGroup, o
 
     craftingRecipe = craftingRecipe.replace("outIngredients", ingredientsJson, 1)
 
-    fileIO.stringToFile("out/" + stripNamespace(outResult) + "_from_" + stripNamespace(outIngredients[NAME_FROM_INGREDIENT]) + ".json",craftingRecipe)
+    fileIO.stringToFile(OUTDIR + stripNamespace(outResult) + "_from_" + stripNamespace(outIngredients[NAME_FROM_INGREDIENT]) + ".json",craftingRecipe)
 
 
 
@@ -88,45 +92,39 @@ def getAllImplementations():
             outIngredients = []
             outResult = ""
             pointer = 65
-            outGroup = outRecipe["group"]
-            outCount = outRecipe["count"]
-            # Not Supported Function - will require additional modification 
-            if isinstance(ingredients, str):
-                outIngredients.append(getNamespacedIngredient(ingredients))
-                outResult = getNamespacedIngredient(ingredients)
-            # Supported Function 
-            else:
+            
+            
+            '''
+            Get predefined ingredients 
+
+            Limitation can only have a predef ingredient occur once in shapeless
+            '''
+            lenPredefIngredients = len(outRecipe["predef_ingredients"])
+            for index in range(lenPredefIngredients):
+                
+                outIngredients.append(outRecipe["predef_ingredients"][index][chr(pointer)])
+                pointer += 1
+
+            # Get implementation ingredients 
+            outRecipeType = getRecipeType(outRecipe)
+            if outRecipeType == "pattern":
+                outIngredients.extend(ingredients[1])
+            if outRecipeType == "shapeless":
                 '''
-                Get predefined ingredients 
-
-                Limitation can only have a predef ingredient occur once in shapeless
+                Assumptions: predef ingredients should refer starting at A 
+                and shapeless ingredients should be in ascending order eg. 
+                ["A", "B", "B", "C"]
                 '''
-                lenPredefIngredients = len(outRecipe["predef_ingredients"])
-                for index in range(lenPredefIngredients):
-                    
-                    outIngredients.append(outRecipe["predef_ingredients"][index][chr(pointer)])
-                    pointer += 1
+                for item in range(len(outRecipe["shapeless"])):
+                    # Convert each letter to a number and subtract the pointer
+                    ingredientIndex = ord(outRecipe["shapeless"][item]) - pointer
+                    if (ingredientIndex > -1):
+                        outIngredients.append(ingredients[1][ingredientIndex])
+            print (outIngredients)
+            # Get output
+            outResult = ingredients[0]
 
-                # Get implementation ingredients 
-                outRecipeType = getRecipeType(outRecipe)
-                if outRecipeType == "pattern":
-                    outIngredients.extend(ingredients[1])
-                if outRecipeType == "shapeless":
-                    '''
-                    Assumptions: predef ingredients should refer starting at A 
-                    and shapeless ingredients should be in ascending order eg. 
-                    ["A", "B", "B", "C"]
-                    '''
-                    for item in range(len(outRecipe["shapeless"])):
-                        # Convert each letter to a number and subtract the pointer
-                        ingredientIndex = ord(outRecipe["shapeless"][item]) - pointer
-                        if (ingredientIndex > -1):
-                            outIngredients.append(ingredients[1][ingredientIndex])
-                print (outIngredients)
-                # Get output
-                outResult = ingredients[0]
-
-            assembleRecipe(outRecipeType,outRecipe, outResult, outIngredients, getNamespacedIngredient(outGroup), outCount)
+        assembleRecipe(outRecipeType,outRecipe, outResult, outIngredients)
 
          
 
@@ -143,7 +141,13 @@ def getNamespacedIngredient(ingredient):
 Strip the namespace from the ingredient name 
 '''
 def stripNamespace(ingredient):
-    return ingredient.split(":")[1]
+    if ingredient.count(":") > 0:
+        return ingredient.split(":")[1]
+    else:
+        return ingredient
 
 
-getAllImplementations()
+if __name__ == "__main__": # pragma: no cover
+    
+    AUTHOR, NAMESPACE, NAME_FROM_INGREDIENT, RECIPES, IMPLEMENTATIONS = readConfig()
+    getAllImplementations()

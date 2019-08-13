@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "thisIsA:block/decorations/res_name0_slab"},
+    "type=top": { "model": "thisIsA:block/decorations/res_name0_slab_top" },
+    "type=double": { "model": "thisIsA:block/storage_blocks/res_name0_block" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:gems/aquamarine",
+        "#forge:gems/galaxite",
+	    "#forge:gems/lonsdaleite",
+	    "#forge:gems/zircon",
+	    "#forge:gems/zirconia"
+    ]
+}

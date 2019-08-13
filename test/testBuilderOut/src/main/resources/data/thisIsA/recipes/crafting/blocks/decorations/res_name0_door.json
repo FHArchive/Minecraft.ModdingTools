@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "group": "thisIsA:gem_decoration_block",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/res_name0"
+    }
+  },
+  "result": {
+    "item": "thisIsA:decorations/res_name0_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_decoration_block",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:decorations/res_name0_stairs"
+        }
+    },
+    "result": {
+        "item": "thisIsA:decorations/res_name0_brick_stairs",
+        "count": 4
+    }
+}

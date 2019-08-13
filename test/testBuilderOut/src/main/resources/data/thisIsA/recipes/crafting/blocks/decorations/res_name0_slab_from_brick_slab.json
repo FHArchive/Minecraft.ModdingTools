@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_decoration_block",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:decorations/res_name0_brick_slab"
+        }
+    },
+    "result": {
+        "item": "thisIsA:decorations/res_name0_slab",
+        "count": 1
+    }
+}

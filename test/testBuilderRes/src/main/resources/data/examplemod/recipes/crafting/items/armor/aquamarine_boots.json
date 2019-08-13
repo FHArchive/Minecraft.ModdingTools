@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "anothergemsmod:gem_block",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/aquamarine"
+    }
+  },
+  "result": {
+    "item": "anothergemsmod:armor/aquamarine_boots",
+    "count": 1
+  }
+}

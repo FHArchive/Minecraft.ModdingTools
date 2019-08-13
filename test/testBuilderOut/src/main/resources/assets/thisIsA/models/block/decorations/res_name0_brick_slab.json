@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "thisIsA:block/decorations/res_name0_bricks",
+    "top": "thisIsA:block/decorations/res_name0_bricks",
+    "side": "thisIsA:block/decorations/res_name0_bricks"
+  }
+}

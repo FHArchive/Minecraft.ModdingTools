@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "thisIsA:block/storage_blocks/res_name0_block",
+    "top": "thisIsA:block/storage_blocks/res_name0_block",
+    "side": "thisIsA:block/storage_blocks/res_name0_block"
+  }
+}

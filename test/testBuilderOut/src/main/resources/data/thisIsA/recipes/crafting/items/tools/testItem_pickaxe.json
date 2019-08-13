@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_pickaxe",
+    "pattern": [
+        "###",
+        " a ",
+        " a "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/testItem"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "thisIsA:tools/testItem_pickaxe",
+        "count": 1
+    }
+}

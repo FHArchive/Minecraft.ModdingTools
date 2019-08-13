@@ -1,0 +1,5 @@
+{
+    "generate-java-lib" : "True",
+    "generate-java-registers" : "True",
+    "generate-java-main-files" : "True"
+}

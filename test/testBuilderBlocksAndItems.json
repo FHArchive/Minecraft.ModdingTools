@@ -1,0 +1,23 @@
+
+{
+    "resources" : [{
+        "names" : ["res_name0"],
+        "types" : ["ore", "block", "bricks", "slab", "stairs", "brick_slab", "brick_stairs", "tools", "armor", "shears", "bars", "door", "lamp", "lamp_inverted"]
+
+    }
+    
+
+    ],
+    "blocks" : [{
+        "names" : ["block_name0"],
+        "types" : ["ore", "block", "bricks", "slab", "stairs", "brick_slab", "brick_stairs", "tools", "armor", "shears", "bars", "door", "lamp", "lamp_inverted"]
+
+    }
+
+    ],
+    "items" : [{
+        "names" : ["item_name0"],
+        "types" : []
+    }
+    ]
+}

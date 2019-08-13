@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_shovel",
+    "pattern": [
+        "#",
+        "a",
+        "a"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/res_name0"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "thisIsA:tools/res_name0_shovel",
+        "count": 1
+    }
+}

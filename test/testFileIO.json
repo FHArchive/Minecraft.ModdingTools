@@ -1,0 +1,6 @@
+{
+    "myInt": 1234,
+    "myString": "1234",
+    "myFloat": 12.34,
+    "myBool": true
+}

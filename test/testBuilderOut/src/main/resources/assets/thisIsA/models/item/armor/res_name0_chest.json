@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "thisIsA:item/armor/res_name0_chest"
+  }
+}

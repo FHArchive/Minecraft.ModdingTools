@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:storage_blocks/aquamarine",
+        "#forge:storage_blocks/galaxite",
+	    "#forge:storage_blocks/lonsdaleite",
+	    "#forge:storage_blocks/zircon",
+	    "#forge:storage_blocks/zirconia"
+    ]
+}

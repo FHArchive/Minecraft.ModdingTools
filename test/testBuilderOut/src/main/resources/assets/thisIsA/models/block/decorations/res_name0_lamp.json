@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thisIsA:block/decorations/res_name0_lamp"
+  }
+}

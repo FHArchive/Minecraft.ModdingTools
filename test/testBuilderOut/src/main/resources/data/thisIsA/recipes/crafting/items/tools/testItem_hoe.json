@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_hoe",
+    "pattern": [
+        "##",
+        " a",
+        " a"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/testItem"
+        },
+        "a": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "thisIsA:tools/testItem_hoe",
+        "count": 1
+    }
+}

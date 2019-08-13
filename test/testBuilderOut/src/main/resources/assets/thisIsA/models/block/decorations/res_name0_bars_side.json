@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "thisIsA:block/decorations/res_name0_bars_top",
+    "pane": "thisIsA:block/decorations/res_name0_bars"
+  }
+}

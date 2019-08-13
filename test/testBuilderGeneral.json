@@ -1,0 +1,6 @@
+{
+    "author" : "testAuthor",
+    "mod-name" : "thisIsA",
+    "input-file": "testBuilderRes",
+    "output-file": "testBuilderOut"
+}

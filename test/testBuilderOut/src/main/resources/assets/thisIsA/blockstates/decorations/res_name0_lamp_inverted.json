@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "thisIsA:block/decorations/res_name0_lamp_on"},
+    "lit=true": { "model": "thisIsA:block/decorations/res_name0_lamp" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_shears",
+    "pattern": [
+        " #",
+        "# "
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:gems/res_name0"
+        }
+
+    },
+    "result": {
+        "item": "thisIsA:tools/res_name0_shears",
+        "count": 1
+    }
+}

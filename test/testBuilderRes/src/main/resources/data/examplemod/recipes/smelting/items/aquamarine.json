@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "tag": "forge:ores/aquamarine"
+    },
+    "result": "anothergemsmod:aquamarine",
+    "experience": 0.75,
+    "cookingTime": 200
+}

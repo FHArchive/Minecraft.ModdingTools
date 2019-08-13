@@ -1,0 +1,39 @@
+{
+    "author": "testAuthor",
+    "namespace": "thisIsA",
+    "name-from-ingredient": 0,
+
+    "recipes": [{
+        "id": "test0",
+        "pattern": ["A  ", " A ", "  A"],
+        "predef_ingredients": [],
+        "group": "test_group0",
+        "count": 1
+    },
+    {
+        "id": "test1",
+        "shapeless": ["A", "B"],
+        "predef_ingredients": [{"A": "thisIsA:ingredient"}],
+        "group": "test_group1",
+        "count": 1
+    }
+    ],
+    "implementations": [
+        {
+            "usesid": "test0",
+            "ingredients": [
+                ["thisIsA:result", ["thisIsA:ingredient"]]
+    
+             
+            ]
+        },
+        {
+            "usesid": "test1",
+            "ingredients": [
+                ["thisIsA:result", ["thisIsA:notherIngredient"]]
+                
+             
+            ]
+        }
+    ]
+}

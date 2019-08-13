@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thisIsA:block/storage_blocks/res_name0_block"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+    "values": [
+        "#forge:decorations/aquamarine_bricks",
+        "#forge:decorations/galaxite_bricks",
+	    "#forge:decorations/lonsdaleite_bricks",
+	    "#forge:decorations/zircon_bricks",
+	    "#forge:decorations/zirconia_bricks"
+    ]
+}

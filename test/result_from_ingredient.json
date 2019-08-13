@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "group": "thisIsA:test_group1",
+  "ingredients": [
+    { "item": "thisIsA:ingredient" }, { "item": "thisIsA:notherIngredient" }
+  ],
+  "result": {
+    "item": "thisIsA:result",
+    "count": 1
+  }
+}

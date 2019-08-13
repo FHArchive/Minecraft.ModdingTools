@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "thisIsA:gem_decoration_block",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/res_name0"
+    },
+    "a": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "thisIsA:decorations/res_name0_lamp_inverted",
+    "count": 1
+  }
+}

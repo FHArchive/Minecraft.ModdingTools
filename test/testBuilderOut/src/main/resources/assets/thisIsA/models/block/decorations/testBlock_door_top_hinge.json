@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "thisIsA:block/decorations/testBlock_door_bottom",
+    "top": "thisIsA:block/decorations/testBlock_door_top"
+  }
+}

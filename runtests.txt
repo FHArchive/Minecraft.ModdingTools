@@ -1,0 +1,1 @@
+py.test test\test_fileIO.py --cov=lib && py.test test\test_recipeBuilder-builder.py --cov=recipebuilder --cov-append && py.test test\test_builder-assemble.py --cov=builder --cov-append 

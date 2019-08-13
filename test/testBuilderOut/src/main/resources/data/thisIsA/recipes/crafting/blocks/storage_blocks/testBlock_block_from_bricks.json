@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "thisIsA:gem_block",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:decorations/testBlock_bricks"
+        }
+    },
+    "result": {
+        "item": "thisIsA:storage_blocks/testBlock_block",
+        "count": 4
+    }
+}
