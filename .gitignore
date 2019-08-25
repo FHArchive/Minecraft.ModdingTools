@@ -1,4 +1,6 @@
-.pytest_cache
 __pycache__
+.vscode
+.pytest_cache
 .coverage
-exclude/
+htmlcov
+exclude
